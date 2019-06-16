@@ -4,8 +4,8 @@ TCXX=g++ -std=c++0x
 MPICC=mpicc -D __USE_MPI__ -std=gnu99
 MPICXX=mpicxx -D __USE_MPI__ -std=c++0x
 
-MOSEK=/Users/jxy198/mosek/7/tools/platform/osx64x86
-MOSEK_VERSION=7.1
+MOSEK=/Users/benjaminleroy/mosek/9.0/tools/platform/osx64x86
+MOSEK_VERSION=9.0
 MOSEK_BIN=-lmosek64 -pthread
 OTHER_LIB=
 BLAS_LIB=-lblas
